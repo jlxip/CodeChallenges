@@ -1,0 +1,164 @@
+/* GLOBAL STYLE */
+:root {
+	--bg-color: #d1f0ff;
+	--input-bg-color: #bae8ff;
+	--color: #2e6670;
+	--border-color: #a0dfff;
+	--def-font: 'Roboto';
+	--display-font: 'Roboto';
+}
+
+html {
+	background-color: var(--bg-color);
+	color: var(--color);
+	font-family: var(--def-font);
+}
+a {
+	color: var(--color);
+}
+
+h1 {
+	font-family: var(--display-font);
+	font-size: 2.8em;
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+hr {
+	width: 40%;
+	color: var(--border-color);
+}
+
+.center {
+	text-align: center;
+}
+/* END GLOBAL STYLE */
+
+
+
+/* LOGIN */
+div#fuckyou {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 48px;
+}
+a#discord {
+	color: white;
+	text-decoration: none;
+}
+div#discord {
+	background-color: #7289da;
+	color: white;
+	text-decoration: none;
+	padding: 4px;
+	border-radius: 3px;
+
+	display: inline-block;
+}
+/* END LOGIN */
+
+
+
+/* FORMS */
+form {
+	width: 320px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 32px;
+	border: 1px solid var(--border-color);
+	border-radius: 20px;
+	padding: 12px;
+	box-shadow: 2px 2px 0 0 var(--border-color);
+}
+form p, input:not([type = radio]) {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+input {
+	background-color: var(--input-bg-color);
+	color: var(--color);
+	border: 1px solid var(--border-color);
+	border-radius: 3px;
+	padding: 2px;
+}
+
+textarea {
+	background-color: var(--input-bg-color);
+	border: 1px solid var(--border-color);
+	border-radius: 3px;
+	padding: 2px;
+	color: var(--color);
+
+	display: block;
+	margin: 0 auto;
+}
+/* END FORMS */
+
+
+
+/* TABLES */
+table {
+	margin-left: auto;
+	margin-right: auto;
+
+	color:#666;
+	font-size:12px;
+	background:#eaebec;
+	border:#ccc 1px solid;
+	border-radius:3px;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+th {
+	padding:21px 25px 22px 25px;
+	background-color: #eaebec;
+	border-radius: 2px;
+}
+tr {
+	text-align: center;
+	padding-left:20px;
+}
+td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+
+	background-color: #fafafa;
+	border-radius: 3px;
+}
+/* END TABLES */
+
+
+
+/* NEWS */
+div#news {
+	width: 480px;
+	border: 1px solid var(--border-color);
+	display: block;
+	margin: 0 auto;
+	border-radius: 3px;
+	padding: 8px;
+}
+/* END NEWS */
+
+
+
+/* CHALLENGE PAGE */
+div#info {
+	width: 480px;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid var(--border-color);
+	border-radius: 4px;
+	padding: 12px;
+}
+
+div#info hr {
+	width: 100%;
+}
+/* END CHALLENGE */
